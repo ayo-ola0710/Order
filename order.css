@@ -1,6 +1,6 @@
 body{
     width: 100%;
-    background-image: url(/pattern-background-desktop.svg);
+    background-image: url("pattern-background-desktop.svg");
     height: 100%;
     margin-left: 35%;
     
@@ -82,13 +82,13 @@ p{
 
 @media (min-width: 600px) {
     body{
-        background-image: url(/pattern-background-desktop.svg);
+        background-image: url("pattern-background-desktop.svg");
     }
    
 }
 
 @media (max-width: 400px) {
     body{
-        background-image: url(/pattern-background-mobile.svg);
+        background-image: url("pattern-background-mobile.svg");
     }
 }
